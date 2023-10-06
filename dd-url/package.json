@@ -1,0 +1,23 @@
+{
+  "name": "dd-url",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node --require dd-trace/init ./node_modules/.bin/next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dd-trace": "^4.16.0",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
